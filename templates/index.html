@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1 align="center">自动化运维系统v1.0</h1>
+<h2 align="center">主机配置信息</h2>
+<table width="600", bgcolor="aqua", border="1" align="center">
+<tr>
+<h3>
+<th align="left">主机</th>
+<th align="left">服务名称</th>
+<th align="left">端口号</th>
+<th align="left">创建日期</th>
+</h3>
+<tr>
+{% for list in hostlist %}
+<tr>
+<b>
+    <td align="left"><a href="{{ list.ip }}">{{list.ip}}</a></td>
+    <td align="left">{{list.server_name}}</td>
+    <td>{{list.port}}</td>
+    <td>{{list.host_date}}</td>
+</b>
+</tr>
+{% endfor %}
+</tr>
+</table>
+</body>
+</html>
