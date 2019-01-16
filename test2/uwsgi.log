@@ -1,0 +1,1276 @@
+*** Starting uWSGI 2.0.17.1 (64bit) on [Tue Jan 15 18:16:34 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 15 January 2019 06:16:40
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: localhost.localdomain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /usr/local/django/test2
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/django
+your processes number limit is 7190
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1.:8000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Jan 16 09:25:03 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 15 January 2019 06:16:40
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: localhost.localdomain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /usr/local/django/test2
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/django
+your processes number limit is 7190
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.2 (default, Jan  7 2019, 09:42:04)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0xf1dc50
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+failed to open python file /test2/wsgi.py
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 2915)
+spawned uWSGI worker 1 (pid: 2916, cores: 2)
+spawned uWSGI worker 2 (pid: 2917, cores: 2)
+spawned uWSGI worker 3 (pid: 2918, cores: 2)
+spawned uWSGI worker 4 (pid: 2919, cores: 2)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Jan 16 10:05:23 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 15 January 2019 06:16:40
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: localhost.localdomain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /usr/local/django/test2
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/django
+your processes number limit is 7190
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.2 (default, Jan  7 2019, 09:42:04)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x1d90c50
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+failed to open python file /test2/wsgi.py
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3448)
+spawned uWSGI worker 1 (pid: 3449, cores: 2)
+spawned uWSGI worker 2 (pid: 3450, cores: 2)
+spawned uWSGI worker 3 (pid: 3451, cores: 2)
+spawned uWSGI worker 4 (pid: 3452, cores: 2)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Jan 16 10:10:47 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 15 January 2019 06:16:40
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: localhost.localdomain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /usr/local/django/test2
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/django
+your processes number limit is 7190
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Jan 16 10:12:34 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 15 January 2019 06:16:40
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: localhost.localdomain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /usr/local/django/test2
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/django
+your processes number limit is 7190
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:40073 (port auto-assigned) fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.2 (default, Jan  7 2019, 09:42:04)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x126bda0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x126bda0 pid: 3488 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3488)
+spawned uWSGI worker 1 (pid: 3489, cores: 2)
+spawned uWSGI worker 2 (pid: 3490, cores: 2)
+spawned uWSGI worker 3 (pid: 3491, cores: 2)
+spawned uWSGI worker 4 (pid: 3493, cores: 2)
+spawned uWSGI http 1 (pid: 3494)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 3494)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Jan 16 10:14:35 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 15 January 2019 06:16:40
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: localhost.localdomain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /usr/local/django/test2
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/django
+your processes number limit is 7190
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 172.16.255.219:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:37702 (port auto-assigned) fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.2 (default, Jan  7 2019, 09:42:04)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x22bbda0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x22bbda0 pid: 3509 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3509)
+spawned uWSGI worker 1 (pid: 3510, cores: 2)
+spawned uWSGI worker 2 (pid: 3511, cores: 2)
+spawned uWSGI worker 3 (pid: 3512, cores: 2)
+spawned uWSGI worker 4 (pid: 3514, cores: 2)
+spawned uWSGI http 1 (pid: 3515)
+[pid: 3511|app: 0|req: 1/1] 192.168.31.144 () {40 vars in 805 bytes} [Wed Jan 16 10:14:39 2019] GET / => generated 0 bytes in 24 msecs (HTTP/1.1 302) 4 headers in 130 bytes (1 switches on core 0)
+[pid: 3511|app: 0|req: 2/2] 192.168.31.144 () {40 vars in 818 bytes} [Wed Jan 16 10:14:39 2019] GET /pag?P1/ => generated 0 bytes in 3 msecs (HTTP/1.1 301) 3 headers in 114 bytes (1 switches on core 1)
+./auto/views.py:9: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'auto.models.HostInfo'> QuerySet.
+  p = Paginator(hostlist, 30)
+[pid: 3511|app: 0|req: 3/3] 192.168.31.144 () {40 vars in 820 bytes} [Wed Jan 16 10:14:39 2019] GET /pag/?P1/ => generated 520 bytes in 39 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3510|app: 0|req: 1/4] 192.168.31.144 () {38 vars in 766 bytes} [Wed Jan 16 10:14:39 2019] GET /favicon.ico => generated 202 bytes in 30 msecs (HTTP/1.1 404) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 3511|app: 0|req: 4/5] 192.168.31.144 () {40 vars in 820 bytes} [Wed Jan 16 10:14:40 2019] GET /pag/?P1/ => generated 520 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 1)
+./auto/views.py:9: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'auto.models.HostInfo'> QuerySet.
+  p = Paginator(hostlist, 30)
+[pid: 3514|app: 0|req: 1/6] 192.168.31.144 () {40 vars in 820 bytes} [Wed Jan 16 10:14:40 2019] GET /pag/?P1/ => generated 520 bytes in 66 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3514|app: 0|req: 2/7] 192.168.31.144 () {40 vars in 820 bytes} [Wed Jan 16 10:14:40 2019] GET /pag/?P1/ => generated 520 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 1)
+./auto/views.py:9: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'auto.models.HostInfo'> QuerySet.
+  p = Paginator(hostlist, 30)
+[pid: 3510|app: 0|req: 2/8] 192.168.31.144 () {40 vars in 820 bytes} [Wed Jan 16 10:14:41 2019] GET /pag/?P1/ => generated 520 bytes in 22 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 1)
+./auto/views.py:9: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'auto.models.HostInfo'> QuerySet.
+  p = Paginator(hostlist, 30)
+[pid: 3512|app: 0|req: 1/9] 192.168.31.144 () {40 vars in 820 bytes} [Wed Jan 16 10:14:41 2019] GET /pag/?P1/ => generated 520 bytes in 61 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 3515)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Jan 16 10:21:58 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 15 January 2019 06:16:40
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: localhost.localdomain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /usr/local/django/test2
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/django
+your processes number limit is 7190
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.2 (default, Jan  7 2019, 09:42:04)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x273bc60
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x273bc60 pid: 3537 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3537)
+spawned uWSGI worker 1 (pid: 3538, cores: 2)
+spawned uWSGI worker 2 (pid: 3539, cores: 2)
+spawned uWSGI worker 3 (pid: 3541, cores: 2)
+spawned uWSGI worker 4 (pid: 3542, cores: 2)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Jan 16 10:26:47 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 15 January 2019 06:16:40
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: localhost.localdomain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /usr/local/django/test2
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/django
+your processes number limit is 7190
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.2 (default, Jan  7 2019, 09:42:04)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x1e87c60
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1e87c60 pid: 3580 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3580)
+spawned uWSGI worker 1 (pid: 3581, cores: 2)
+spawned uWSGI worker 2 (pid: 3582, cores: 2)
+spawned uWSGI worker 3 (pid: 3583, cores: 2)
+spawned uWSGI worker 4 (pid: 3585, cores: 2)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Jan 16 11:29:53 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 15 January 2019 06:16:40
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: localhost.localdomain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /usr/local/django/test2
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/django
+your processes number limit is 7190
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:34935 (port auto-assigned) fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.2 (default, Jan  7 2019, 09:42:04)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x1333da0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1333da0 pid: 4033 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4033)
+spawned uWSGI worker 1 (pid: 4034, cores: 2)
+spawned uWSGI worker 2 (pid: 4035, cores: 2)
+spawned uWSGI worker 3 (pid: 4036, cores: 2)
+spawned uWSGI worker 4 (pid: 4038, cores: 2)
+spawned uWSGI http 1 (pid: 4039)
+[pid: 4038|app: 0|req: 1/1] 127.0.0.1 () {28 vars in 303 bytes} [Wed Jan 16 11:30:04 2019] GET / => generated 0 bytes in 16 msecs (HTTP/1.1 302) 4 headers in 130 bytes (1 switches on core 0)
+[pid: 4038|app: 0|req: 2/2] 192.168.31.110 () {36 vars in 637 bytes} [Wed Jan 16 11:30:12 2019] GET / => generated 0 bytes in 1 msecs (HTTP/1.1 302) 4 headers in 130 bytes (1 switches on core 1)
+[pid: 4036|app: 0|req: 1/3] 192.168.31.110 () {36 vars in 650 bytes} [Wed Jan 16 11:30:12 2019] GET /pag?P1/ => generated 0 bytes in 19 msecs (HTTP/1.1 301) 3 headers in 114 bytes (1 switches on core 0)
+./auto/views.py:9: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'auto.models.HostInfo'> QuerySet.
+  p = Paginator(hostlist, 30)
+[pid: 4036|app: 0|req: 2/4] 192.168.31.110 () {36 vars in 652 bytes} [Wed Jan 16 11:30:12 2019] GET /pag/?P1/ => generated 520 bytes in 36 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 1)
+[pid: 4034|app: 0|req: 1/5] 192.168.31.110 () {36 vars in 629 bytes} [Wed Jan 16 11:30:12 2019] GET /favicon.ico => generated 202 bytes in 45 msecs (HTTP/1.1 404) 3 headers in 116 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 4039)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Jan 16 11:32:49 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 15 January 2019 06:16:40
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: localhost.localdomain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /usr/local/django/test2
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/django
+your processes number limit is 7190
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.2 (default, Jan  7 2019, 09:42:04)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x148dc60
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x148dc60 pid: 4058 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4058)
+spawned uWSGI worker 1 (pid: 4059, cores: 2)
+spawned uWSGI worker 2 (pid: 4060, cores: 2)
+spawned uWSGI worker 3 (pid: 4062, cores: 2)
+spawned uWSGI worker 4 (pid: 4063, cores: 2)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Jan 16 11:38:50 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 15 January 2019 06:16:40
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: localhost.localdomain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /usr/local/django/test2
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/django
+your processes number limit is 7190
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/dj.socket fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.2 (default, Jan  7 2019, 09:42:04)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x129a7a0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x129a7a0 pid: 4075 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4075)
+spawned uWSGI worker 1 (pid: 4076, cores: 2)
+spawned uWSGI worker 2 (pid: 4077, cores: 2)
+spawned uWSGI worker 3 (pid: 4079, cores: 2)
+spawned uWSGI worker 4 (pid: 4080, cores: 2)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Jan 16 12:00:58 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 15 January 2019 06:16:40
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: localhost.localdomain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /usr/local/django/test2
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/django
+your processes number limit is 7190
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:40176 (port auto-assigned) fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.2 (default, Jan  7 2019, 09:42:04)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x1a57da0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1a57da0 pid: 4477 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4477)
+spawned uWSGI worker 1 (pid: 4478, cores: 2)
+spawned uWSGI worker 2 (pid: 4479, cores: 2)
+spawned uWSGI worker 3 (pid: 4481, cores: 2)
+spawned uWSGI worker 4 (pid: 4482, cores: 2)
+spawned uWSGI http 1 (pid: 4483)
+[pid: 4479|app: 0|req: 1/1] 127.0.0.1 () {28 vars in 303 bytes} [Wed Jan 16 12:55:56 2019] GET / => generated 0 bytes in 18 msecs (HTTP/1.1 302) 4 headers in 130 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Jan 16 12:56:14 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 15 January 2019 06:16:40
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: localhost.localdomain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /usr/local/django/test2
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/django
+your processes number limit is 7190
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (0.0.0.0:8000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Jan 16 12:58:09 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 15 January 2019 06:16:40
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: localhost.localdomain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /usr/local/django/test2
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/django
+your processes number limit is 7190
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:40960 (port auto-assigned) fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.2 (default, Jan  7 2019, 09:42:04)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x150cda0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x150cda0 pid: 4656 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4656)
+spawned uWSGI worker 1 (pid: 4657, cores: 2)
+spawned uWSGI worker 2 (pid: 4658, cores: 2)
+spawned uWSGI worker 3 (pid: 4660, cores: 2)
+spawned uWSGI worker 4 (pid: 4661, cores: 2)
+spawned uWSGI http 1 (pid: 4664)
+[pid: 4658|app: 0|req: 1/1] 127.0.0.1 () {28 vars in 303 bytes} [Wed Jan 16 12:59:06 2019] GET / => generated 0 bytes in 16 msecs (HTTP/1.1 302) 4 headers in 130 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 4664)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Jan 16 14:03:15 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 15 January 2019 06:16:40
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: localhost.localdomain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /usr/local/django/test2
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/django
+your processes number limit is 7190
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 172.16.255.219:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:45918 (port auto-assigned) fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.2 (default, Jan  7 2019, 09:42:04)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x1ac9da0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1ac9da0 pid: 4756 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4756)
+spawned uWSGI worker 1 (pid: 4757, cores: 2)
+spawned uWSGI worker 2 (pid: 4758, cores: 2)
+spawned uWSGI worker 3 (pid: 4759, cores: 2)
+spawned uWSGI worker 4 (pid: 4761, cores: 2)
+spawned uWSGI http 1 (pid: 4763)
+[pid: 4759|app: 0|req: 1/1] 192.168.31.144 () {40 vars in 805 bytes} [Wed Jan 16 14:03:53 2019] GET / => generated 0 bytes in 24 msecs (HTTP/1.1 302) 4 headers in 130 bytes (1 switches on core 0)
+[pid: 4757|app: 0|req: 1/2] 192.168.31.144 () {40 vars in 818 bytes} [Wed Jan 16 14:03:53 2019] GET /pag?P1/ => generated 0 bytes in 25 msecs (HTTP/1.1 301) 3 headers in 114 bytes (1 switches on core 0)
+./auto/views.py:9: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'auto.models.HostInfo'> QuerySet.
+  p = Paginator(hostlist, 30)
+[pid: 4757|app: 0|req: 2/3] 192.168.31.144 () {40 vars in 820 bytes} [Wed Jan 16 14:03:53 2019] GET /pag/?P1/ => generated 520 bytes in 44 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 1)
+[pid: 4759|app: 0|req: 2/4] 192.168.31.144 () {38 vars in 766 bytes} [Wed Jan 16 14:03:53 2019] GET /favicon.ico => generated 202 bytes in 22 msecs (HTTP/1.1 404) 3 headers in 116 bytes (1 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 4763)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Jan 16 14:05:00 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 15 January 2019 06:16:40
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: localhost.localdomain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /usr/local/django/test2
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/django
+your processes number limit is 7190
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:38108 (port auto-assigned) fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.2 (default, Jan  7 2019, 09:42:04)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0xaa5da0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0xaa5da0 pid: 4817 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4817)
+spawned uWSGI worker 1 (pid: 4818, cores: 2)
+spawned uWSGI worker 2 (pid: 4819, cores: 2)
+spawned uWSGI worker 3 (pid: 4820, cores: 2)
+spawned uWSGI worker 4 (pid: 4821, cores: 2)
+spawned uWSGI http 1 (pid: 4823)
+[pid: 4819|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 759 bytes} [Wed Jan 16 14:05:23 2019] GET / => generated 0 bytes in 23 msecs (HTTP/1.0 302) 4 headers in 130 bytes (1 switches on core 0)
+[pid: 4818|app: 0|req: 1/2] 127.0.0.1 () {38 vars in 772 bytes} [Wed Jan 16 14:05:23 2019] GET /pag?P1/ => generated 0 bytes in 21 msecs (HTTP/1.0 301) 3 headers in 114 bytes (1 switches on core 0)
+./auto/views.py:9: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'auto.models.HostInfo'> QuerySet.
+  p = Paginator(hostlist, 30)
+[pid: 4819|app: 0|req: 2/3] 127.0.0.1 () {38 vars in 774 bytes} [Wed Jan 16 14:05:23 2019] GET /pag/?P1/ => generated 520 bytes in 41 msecs (HTTP/1.0 200) 3 headers in 109 bytes (1 switches on core 1)
+[pid: 4818|app: 0|req: 2/4] 127.0.0.1 () {38 vars in 746 bytes} [Wed Jan 16 14:05:23 2019] GET /favicon.ico => generated 202 bytes in 13 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 1)
+./auto/views.py:9: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'auto.models.HostInfo'> QuerySet.
+  p = Paginator(hostlist, 30)
+[pid: 4820|app: 0|req: 1/5] 127.0.0.1 () {40 vars in 805 bytes} [Wed Jan 16 14:05:25 2019] GET /pag/?P1/ => generated 520 bytes in 32 msecs (HTTP/1.0 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 4820|app: 0|req: 2/6] 127.0.0.1 () {40 vars in 805 bytes} [Wed Jan 16 14:05:25 2019] GET /pag/?P1/ => generated 520 bytes in 7 msecs (HTTP/1.0 200) 3 headers in 109 bytes (1 switches on core 1)
+[pid: 4821|app: 0|req: 1/7] 127.0.0.1 () {38 vars in 768 bytes} [Wed Jan 16 14:05:33 2019] GET /admin => generated 0 bytes in 21 msecs (HTTP/1.0 301) 3 headers in 112 bytes (1 switches on core 0)
+[pid: 4818|app: 0|req: 3/8] 127.0.0.1 () {38 vars in 770 bytes} [Wed Jan 16 14:05:33 2019] GET /admin/ => generated 4131 bytes in 114 msecs (HTTP/1.0 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 4819|app: 0|req: 3/9] 127.0.0.1 () {38 vars in 760 bytes} [Wed Jan 16 14:05:33 2019] GET /static/admin/css/dashboard.css => generated 221 bytes in 2 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 4820|app: 0|req: 3/10] 127.0.0.1 () {38 vars in 762 bytes} [Wed Jan 16 14:05:33 2019] GET /static/admin/css/responsive.css => generated 222 bytes in 1 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 4821|app: 0|req: 2/11] 127.0.0.1 () {38 vars in 750 bytes} [Wed Jan 16 14:05:33 2019] GET /static/admin/css/base.css => generated 216 bytes in 24 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 4818|app: 0|req: 4/12] 127.0.0.1 () {40 vars in 801 bytes} [Wed Jan 16 14:15:03 2019] GET /admin/ => generated 4131 bytes in 37 msecs (HTTP/1.0 200) 6 headers in 227 bytes (1 switches on core 1)
+[pid: 4820|app: 0|req: 4/13] 127.0.0.1 () {38 vars in 760 bytes} [Wed Jan 16 14:15:03 2019] GET /static/admin/css/dashboard.css => generated 221 bytes in 3 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 4818|app: 0|req: 5/14] 127.0.0.1 () {38 vars in 750 bytes} [Wed Jan 16 14:15:03 2019] GET /static/admin/css/base.css => generated 216 bytes in 4 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 4820|app: 0|req: 5/15] 127.0.0.1 () {38 vars in 763 bytes} [Wed Jan 16 14:15:03 2019] GET /static/admin/css/responsive.css => generated 222 bytes in 1 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 4820|app: 0|req: 6/16] 127.0.0.1 () {40 vars in 802 bytes} [Wed Jan 16 14:15:05 2019] GET /admin/ => generated 4131 bytes in 142 msecs (HTTP/1.0 200) 6 headers in 227 bytes (1 switches on core 1)
+[pid: 4818|app: 0|req: 6/17] 127.0.0.1 () {38 vars in 761 bytes} [Wed Jan 16 14:15:05 2019] GET /static/admin/css/dashboard.css => generated 221 bytes in 1 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 4821|app: 0|req: 3/18] 127.0.0.1 () {38 vars in 751 bytes} [Wed Jan 16 14:15:05 2019] GET /static/admin/css/base.css => generated 216 bytes in 2 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 4818|app: 0|req: 7/19] 127.0.0.1 () {38 vars in 763 bytes} [Wed Jan 16 14:15:05 2019] GET /static/admin/css/responsive.css => generated 222 bytes in 1 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 4819|app: 0|req: 4/20] 127.0.0.1 () {40 vars in 802 bytes} [Wed Jan 16 14:15:05 2019] GET /admin/ => generated 4131 bytes in 115 msecs (HTTP/1.0 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 4818|app: 0|req: 8/21] 127.0.0.1 () {38 vars in 763 bytes} [Wed Jan 16 14:15:05 2019] GET /static/admin/css/responsive.css => generated 222 bytes in 1 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 4819|app: 0|req: 6/22] 127.0.0.1 () {38 vars in 751 bytes} [Wed Jan 16 14:15:05 2019] GET /static/admin/css/base.css => generated 216 bytes in 5 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 4819|app: 0|req: 6/23] 127.0.0.1 () {38 vars in 761 bytes} [Wed Jan 16 14:15:05 2019] GET /static/admin/css/dashboard.css => generated 221 bytes in 5 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 4821|app: 0|req: 4/24] 127.0.0.1 () {40 vars in 802 bytes} [Wed Jan 16 14:15:06 2019] GET /admin/ => generated 4131 bytes in 66 msecs (HTTP/1.0 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 4821|app: 0|req: 5/25] 127.0.0.1 () {38 vars in 751 bytes} [Wed Jan 16 14:15:06 2019] GET /static/admin/css/base.css => generated 216 bytes in 2 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 4820|app: 0|req: 7/26] 127.0.0.1 () {38 vars in 763 bytes} [Wed Jan 16 14:15:06 2019] GET /static/admin/css/responsive.css => generated 222 bytes in 2 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 4821|app: 0|req: 6/27] 127.0.0.1 () {38 vars in 761 bytes} [Wed Jan 16 14:15:06 2019] GET /static/admin/css/dashboard.css => generated 221 bytes in 3 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 4820|app: 0|req: 8/28] 127.0.0.1 () {40 vars in 802 bytes} [Wed Jan 16 14:15:07 2019] GET /admin/ => generated 4131 bytes in 13 msecs (HTTP/1.0 200) 6 headers in 227 bytes (1 switches on core 1)
+[pid: 4820|app: 0|req: 9/29] 127.0.0.1 () {38 vars in 751 bytes} [Wed Jan 16 14:15:07 2019] GET /static/admin/css/base.css => generated 216 bytes in 1 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 4819|app: 0|req: 7/30] 127.0.0.1 () {38 vars in 761 bytes} [Wed Jan 16 14:15:07 2019] GET /static/admin/css/dashboard.css => generated 221 bytes in 1 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 4820|app: 0|req: 10/31] 127.0.0.1 () {38 vars in 763 bytes} [Wed Jan 16 14:15:07 2019] GET /static/admin/css/responsive.css => generated 222 bytes in 0 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 4819|app: 0|req: 8/32] 127.0.0.1 () {40 vars in 802 bytes} [Wed Jan 16 14:15:08 2019] GET /admin/ => generated 4131 bytes in 36 msecs (HTTP/1.0 200) 6 headers in 227 bytes (1 switches on core 1)
+[pid: 4821|app: 0|req: 7/33] 127.0.0.1 () {38 vars in 751 bytes} [Wed Jan 16 14:15:08 2019] GET /static/admin/css/base.css => generated 216 bytes in 1 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 4820|app: 0|req: 12/34] 127.0.0.1 () {38 vars in 761 bytes} [Wed Jan 16 14:15:08 2019] GET /static/admin/css/dashboard.css => generated 221 bytes in 2 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 4820|app: 0|req: 12/35] 127.0.0.1 () {38 vars in 763 bytes} [Wed Jan 16 14:15:08 2019] GET /static/admin/css/responsive.css => generated 222 bytes in 2 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 4819|app: 0|req: 9/36] 127.0.0.1 () {40 vars in 802 bytes} [Wed Jan 16 14:15:08 2019] GET /admin/ => generated 4131 bytes in 26 msecs (HTTP/1.0 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 4818|app: 0|req: 9/37] 127.0.0.1 () {38 vars in 751 bytes} [Wed Jan 16 14:15:08 2019] GET /static/admin/css/base.css => generated 216 bytes in 1 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 4821|app: 0|req: 8/38] 127.0.0.1 () {38 vars in 763 bytes} [Wed Jan 16 14:15:08 2019] GET /static/admin/css/responsive.css => generated 222 bytes in 2 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 4818|app: 0|req: 10/39] 127.0.0.1 () {38 vars in 761 bytes} [Wed Jan 16 14:15:08 2019] GET /static/admin/css/dashboard.css => generated 221 bytes in 3 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 4820|app: 0|req: 13/40] 127.0.0.1 () {40 vars in 802 bytes} [Wed Jan 16 14:15:08 2019] GET /admin/ => generated 4131 bytes in 50 msecs (HTTP/1.0 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 4821|app: 0|req: 9/41] 127.0.0.1 () {38 vars in 763 bytes} [Wed Jan 16 14:15:08 2019] GET /static/admin/css/responsive.css => generated 222 bytes in 1 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 4818|app: 0|req: 11/42] 127.0.0.1 () {38 vars in 761 bytes} [Wed Jan 16 14:15:08 2019] GET /static/admin/css/dashboard.css => generated 221 bytes in 1 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 4821|app: 0|req: 10/43] 127.0.0.1 () {38 vars in 751 bytes} [Wed Jan 16 14:15:08 2019] GET /static/admin/css/base.css => generated 216 bytes in 3 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 4820|app: 0|req: 14/44] 127.0.0.1 () {40 vars in 802 bytes} [Wed Jan 16 14:15:08 2019] GET /admin/ => generated 4131 bytes in 24 msecs (HTTP/1.0 200) 6 headers in 227 bytes (1 switches on core 1)
+[pid: 4819|app: 0|req: 10/45] 127.0.0.1 () {38 vars in 751 bytes} [Wed Jan 16 14:15:08 2019] GET /static/admin/css/base.css => generated 216 bytes in 1 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 4819|app: 0|req: 11/46] 127.0.0.1 () {38 vars in 761 bytes} [Wed Jan 16 14:15:08 2019] GET /static/admin/css/dashboard.css => generated 221 bytes in 3 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 4821|app: 0|req: 11/47] 127.0.0.1 () {38 vars in 763 bytes} [Wed Jan 16 14:15:08 2019] GET /static/admin/css/responsive.css => generated 222 bytes in 4 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 4820|app: 0|req: 15/48] 127.0.0.1 () {40 vars in 802 bytes} [Wed Jan 16 14:15:09 2019] GET /admin/ => generated 4131 bytes in 33 msecs (HTTP/1.0 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 4818|app: 0|req: 12/49] 127.0.0.1 () {38 vars in 751 bytes} [Wed Jan 16 14:15:09 2019] GET /static/admin/css/base.css => generated 216 bytes in 1 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 4821|app: 0|req: 12/50] 127.0.0.1 () {38 vars in 761 bytes} [Wed Jan 16 14:15:09 2019] GET /static/admin/css/dashboard.css => generated 221 bytes in 1 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 4818|app: 0|req: 13/51] 127.0.0.1 () {38 vars in 763 bytes} [Wed Jan 16 14:15:09 2019] GET /static/admin/css/responsive.css => generated 222 bytes in 1 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 4818|app: 0|req: 14/52] 127.0.0.1 () {40 vars in 802 bytes} [Wed Jan 16 14:15:09 2019] GET /admin/ => generated 4131 bytes in 24 msecs (HTTP/1.0 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 4821|app: 0|req: 13/53] 127.0.0.1 () {38 vars in 751 bytes} [Wed Jan 16 14:15:09 2019] GET /static/admin/css/base.css => generated 216 bytes in 1 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 4821|app: 0|req: 14/54] 127.0.0.1 () {38 vars in 761 bytes} [Wed Jan 16 14:15:09 2019] GET /static/admin/css/dashboard.css => generated 221 bytes in 1 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 4819|app: 0|req: 12/55] 127.0.0.1 () {38 vars in 763 bytes} [Wed Jan 16 14:15:09 2019] GET /static/admin/css/responsive.css => generated 222 bytes in 1 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 4819|app: 0|req: 13/56] 127.0.0.1 () {40 vars in 802 bytes} [Wed Jan 16 14:15:10 2019] GET /admin/ => generated 4131 bytes in 34 msecs (HTTP/1.0 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 4818|app: 0|req: 15/57] 127.0.0.1 () {38 vars in 751 bytes} [Wed Jan 16 14:15:10 2019] GET /static/admin/css/base.css => generated 216 bytes in 1 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 4820|app: 0|req: 17/58] 127.0.0.1 () {38 vars in 763 bytes} [Wed Jan 16 14:15:10 2019] GET /static/admin/css/responsive.css => generated 222 bytes in 3 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 4820|app: 0|req: 17/59] 127.0.0.1 () {38 vars in 761 bytes} [Wed Jan 16 14:15:10 2019] GET /static/admin/css/dashboard.css => generated 221 bytes in 3 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 4818|app: 0|req: 16/60] 127.0.0.1 () {40 vars in 802 bytes} [Wed Jan 16 14:15:10 2019] GET /admin/ => generated 4131 bytes in 35 msecs (HTTP/1.0 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 4821|app: 0|req: 15/61] 127.0.0.1 () {38 vars in 751 bytes} [Wed Jan 16 14:15:10 2019] GET /static/admin/css/base.css => generated 216 bytes in 1 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 4820|app: 0|req: 18/62] 127.0.0.1 () {38 vars in 761 bytes} [Wed Jan 16 14:15:10 2019] GET /static/admin/css/dashboard.css => generated 221 bytes in 1 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 4821|app: 0|req: 16/63] 127.0.0.1 () {38 vars in 763 bytes} [Wed Jan 16 14:15:10 2019] GET /static/admin/css/responsive.css => generated 222 bytes in 0 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 4819|app: 0|req: 14/64] 127.0.0.1 () {40 vars in 801 bytes} [Wed Jan 16 14:15:11 2019] GET /admin/ => generated 4131 bytes in 23 msecs (HTTP/1.0 200) 6 headers in 227 bytes (1 switches on core 1)
+[pid: 4821|app: 0|req: 17/65] 127.0.0.1 () {38 vars in 760 bytes} [Wed Jan 16 14:15:11 2019] GET /static/admin/css/dashboard.css => generated 221 bytes in 1 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 4818|app: 0|req: 17/66] 127.0.0.1 () {38 vars in 750 bytes} [Wed Jan 16 14:15:11 2019] GET /static/admin/css/base.css => generated 216 bytes in 1 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 4821|app: 0|req: 18/67] 127.0.0.1 () {38 vars in 762 bytes} [Wed Jan 16 14:15:11 2019] GET /static/admin/css/responsive.css => generated 222 bytes in 0 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 4821|app: 0|req: 19/68] 127.0.0.1 () {40 vars in 801 bytes} [Wed Jan 16 14:15:11 2019] GET /admin/ => generated 4131 bytes in 24 msecs (HTTP/1.0 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 4819|app: 0|req: 15/69] 127.0.0.1 () {38 vars in 762 bytes} [Wed Jan 16 14:15:11 2019] GET /static/admin/css/responsive.css => generated 222 bytes in 1 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 4820|app: 0|req: 19/70] 127.0.0.1 () {38 vars in 750 bytes} [Wed Jan 16 14:15:11 2019] GET /static/admin/css/base.css => generated 216 bytes in 2 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 4820|app: 0|req: 20/71] 127.0.0.1 () {38 vars in 760 bytes} [Wed Jan 16 14:15:11 2019] GET /static/admin/css/dashboard.css => generated 221 bytes in 4 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 4819|app: 0|req: 16/72] 127.0.0.1 () {40 vars in 802 bytes} [Wed Jan 16 14:15:11 2019] GET /admin/ => generated 4131 bytes in 16 msecs (HTTP/1.0 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 4818|app: 0|req: 18/73] 127.0.0.1 () {38 vars in 763 bytes} [Wed Jan 16 14:15:11 2019] GET /static/admin/css/responsive.css => generated 222 bytes in 1 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 4819|app: 0|req: 17/74] 127.0.0.1 () {38 vars in 751 bytes} [Wed Jan 16 14:15:11 2019] GET /static/admin/css/base.css => generated 216 bytes in 1 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 4819|app: 0|req: 18/75] 127.0.0.1 () {38 vars in 761 bytes} [Wed Jan 16 14:15:11 2019] GET /static/admin/css/dashboard.css => generated 221 bytes in 3 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 4821|app: 0|req: 20/76] 127.0.0.1 () {40 vars in 802 bytes} [Wed Jan 16 14:15:11 2019] GET /admin/ => generated 4131 bytes in 24 msecs (HTTP/1.0 200) 6 headers in 227 bytes (1 switches on core 1)
+[pid: 4821|app: 0|req: 21/77] 127.0.0.1 () {38 vars in 763 bytes} [Wed Jan 16 14:15:11 2019] GET /static/admin/css/responsive.css => generated 222 bytes in 1 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 4819|app: 0|req: 19/78] 127.0.0.1 () {38 vars in 751 bytes} [Wed Jan 16 14:15:11 2019] GET /static/admin/css/base.css => generated 216 bytes in 1 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 4821|app: 0|req: 22/79] 127.0.0.1 () {38 vars in 761 bytes} [Wed Jan 16 14:15:11 2019] GET /static/admin/css/dashboard.css => generated 221 bytes in 0 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 4818|app: 0|req: 19/80] 127.0.0.1 () {40 vars in 802 bytes} [Wed Jan 16 14:15:11 2019] GET /admin/ => generated 4131 bytes in 24 msecs (HTTP/1.0 200) 6 headers in 227 bytes (1 switches on core 1)
+[pid: 4820|app: 0|req: 21/81] 127.0.0.1 () {38 vars in 751 bytes} [Wed Jan 16 14:15:11 2019] GET /static/admin/css/base.css => generated 216 bytes in 1 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 4821|app: 0|req: 23/82] 127.0.0.1 () {38 vars in 763 bytes} [Wed Jan 16 14:15:11 2019] GET /static/admin/css/responsive.css => generated 222 bytes in 1 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 4820|app: 0|req: 22/83] 127.0.0.1 () {38 vars in 761 bytes} [Wed Jan 16 14:15:11 2019] GET /static/admin/css/dashboard.css => generated 221 bytes in 3 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 4821|app: 0|req: 24/84] 127.0.0.1 () {40 vars in 802 bytes} [Wed Jan 16 14:15:12 2019] GET /admin/ => generated 4131 bytes in 52 msecs (HTTP/1.0 200) 6 headers in 227 bytes (1 switches on core 1)
+[pid: 4821|app: 0|req: 25/85] 127.0.0.1 () {38 vars in 751 bytes} [Wed Jan 16 14:15:12 2019] GET /static/admin/css/base.css => generated 216 bytes in 1 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 4819|app: 0|req: 21/86] 127.0.0.1 () {38 vars in 761 bytes} [Wed Jan 16 14:15:12 2019] GET /static/admin/css/dashboard.css => generated 221 bytes in 3 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 4819|app: 0|req: 21/87] 127.0.0.1 () {38 vars in 763 bytes} [Wed Jan 16 14:15:12 2019] GET /static/admin/css/responsive.css => generated 222 bytes in 3 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 4820|app: 0|req: 23/88] 127.0.0.1 () {40 vars in 802 bytes} [Wed Jan 16 14:15:13 2019] GET /admin/ => generated 4131 bytes in 12 msecs (HTTP/1.0 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 4820|app: 0|req: 24/89] 127.0.0.1 () {38 vars in 761 bytes} [Wed Jan 16 14:15:13 2019] GET /static/admin/css/dashboard.css => generated 221 bytes in 0 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 4820|app: 0|req: 25/90] 127.0.0.1 () {38 vars in 751 bytes} [Wed Jan 16 14:15:13 2019] GET /static/admin/css/base.css => generated 216 bytes in 1 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 4819|app: 0|req: 22/91] 127.0.0.1 () {38 vars in 763 bytes} [Wed Jan 16 14:15:13 2019] GET /static/admin/css/responsive.css => generated 222 bytes in 1 msecs (HTTP/1.0 404) 3 headers in 116 bytes (1 switches on core 1)
+[pid: 4821|app: 0|req: 26/92] 127.0.0.1 () {40 vars in 802 bytes} [Wed Jan 16 14:16:48 2019] GET /admin/ => generated 4131 bytes in 26 msecs (HTTP/1.0 200) 6 headers in 227 bytes (1 switches on core 1)
+[pid: 4820|app: 0|req: 26/93] 127.0.0.1 () {40 vars in 802 bytes} [Wed Jan 16 14:16:49 2019] GET /admin/ => generated 4131 bytes in 38 msecs (HTTP/1.0 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 4818|app: 0|req: 20/94] 127.0.0.1 () {40 vars in 802 bytes} [Wed Jan 16 14:16:49 2019] GET /admin/ => generated 4131 bytes in 25 msecs (HTTP/1.0 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 4819|app: 0|req: 23/95] 127.0.0.1 () {40 vars in 802 bytes} [Wed Jan 16 14:16:49 2019] GET /admin/ => generated 4131 bytes in 15 msecs (HTTP/1.0 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 4820|app: 0|req: 27/96] 127.0.0.1 () {40 vars in 851 bytes} [Wed Jan 16 14:17:09 2019] GET /admin/auto/hostinfo/add/ => generated 7147 bytes in 62 msecs (HTTP/1.0 200) 7 headers in 395 bytes (1 switches on core 1)
+[pid: 4820|app: 0|req: 28/97] 127.0.0.1 () {38 vars in 730 bytes} [Wed Jan 16 14:17:09 2019] GET /admin/jsi18n/ => generated 7684 bytes in 13 msecs (HTTP/1.0 200) 4 headers in 132 bytes (1 switches on core 0)
+[pid: 4819|app: 0|req: 24/98] 127.0.0.1 () {40 vars in 833 bytes} [Wed Jan 16 14:17:17 2019] GET /admin/ => generated 4131 bytes in 23 msecs (HTTP/1.0 200) 6 headers in 227 bytes (1 switches on core 1)
+[pid: 4820|app: 0|req: 29/99] 127.0.0.1 () {40 vars in 851 bytes} [Wed Jan 16 14:17:34 2019] GET /admin/auto/hostinfo/add/ => generated 7147 bytes in 20 msecs (HTTP/1.0 200) 7 headers in 395 bytes (1 switches on core 1)
+[pid: 4818|app: 0|req: 21/100] 127.0.0.1 () {38 vars in 730 bytes} [Wed Jan 16 14:17:34 2019] GET /admin/jsi18n/ => generated 7684 bytes in 11 msecs (HTTP/1.0 200) 4 headers in 132 bytes (1 switches on core 1)
+[pid: 4820|app: 0|req: 30/101] 127.0.0.1 () {48 vars in 1007 bytes} [Wed Jan 16 14:18:27 2019] POST /admin/auto/hostinfo/add/ => generated 0 bytes in 27 msecs (HTTP/1.0 302) 8 headers in 524 bytes (1 switches on core 0)
+[pid: 4820|app: 0|req: 31/102] 127.0.0.1 () {42 vars in 1111 bytes} [Wed Jan 16 14:18:27 2019] GET /admin/auto/hostinfo/ => generated 4577 bytes in 62 msecs (HTTP/1.0 200) 8 headers in 479 bytes (1 switches on core 1)
+[pid: 4821|app: 0|req: 27/103] 127.0.0.1 () {38 vars in 726 bytes} [Wed Jan 16 14:18:27 2019] GET /admin/jsi18n/ => generated 7684 bytes in 9 msecs (HTTP/1.0 200) 4 headers in 132 bytes (1 switches on core 0)
+[pid: 4821|app: 0|req: 28/104] 127.0.0.1 () {40 vars in 865 bytes} [Wed Jan 16 14:18:30 2019] GET /admin/auto/hostinfo/add/ => generated 7147 bytes in 72 msecs (HTTP/1.0 200) 7 headers in 395 bytes (1 switches on core 1)
+[pid: 4820|app: 0|req: 32/105] 127.0.0.1 () {38 vars in 730 bytes} [Wed Jan 16 14:18:30 2019] GET /admin/jsi18n/ => generated 7684 bytes in 11 msecs (HTTP/1.0 200) 4 headers in 132 bytes (1 switches on core 0)
+[pid: 4818|app: 0|req: 22/106] 127.0.0.1 () {48 vars in 1007 bytes} [Wed Jan 16 14:19:02 2019] POST /admin/auto/hostinfo/add/ => generated 0 bytes in 35 msecs (HTTP/1.0 302) 8 headers in 530 bytes (1 switches on core 0)
+[pid: 4821|app: 0|req: 29/107] 127.0.0.1 () {42 vars in 1117 bytes} [Wed Jan 16 14:19:02 2019] GET /admin/auto/hostinfo/ => generated 4824 bytes in 67 msecs (HTTP/1.0 200) 8 headers in 479 bytes (1 switches on core 0)
+[pid: 4820|app: 0|req: 33/108] 127.0.0.1 () {38 vars in 726 bytes} [Wed Jan 16 14:19:02 2019] GET /admin/jsi18n/ => generated 7684 bytes in 13 msecs (HTTP/1.0 200) 4 headers in 132 bytes (1 switches on core 1)
+[pid: 4821|app: 0|req: 30/109] 127.0.0.1 () {40 vars in 865 bytes} [Wed Jan 16 14:19:05 2019] GET /admin/auto/hostinfo/add/ => generated 7147 bytes in 40 msecs (HTTP/1.0 200) 7 headers in 395 bytes (1 switches on core 1)
+[pid: 4818|app: 0|req: 23/110] 127.0.0.1 () {38 vars in 730 bytes} [Wed Jan 16 14:19:05 2019] GET /admin/jsi18n/ => generated 7684 bytes in 7 msecs (HTTP/1.0 200) 4 headers in 132 bytes (1 switches on core 1)
+[pid: 4820|app: 0|req: 34/111] 127.0.0.1 () {48 vars in 1007 bytes} [Wed Jan 16 14:19:40 2019] POST /admin/auto/hostinfo/add/ => generated 0 bytes in 15 msecs (HTTP/1.0 302) 8 headers in 526 bytes (1 switches on core 0)
+[pid: 4818|app: 0|req: 24/112] 127.0.0.1 () {42 vars in 1113 bytes} [Wed Jan 16 14:19:40 2019] GET /admin/auto/hostinfo/ => generated 5056 bytes in 65 msecs (HTTP/1.0 200) 8 headers in 479 bytes (1 switches on core 0)
+[pid: 4820|app: 0|req: 35/113] 127.0.0.1 () {38 vars in 724 bytes} [Wed Jan 16 14:19:40 2019] GET /admin/jsi18n/ => generated 7684 bytes in 12 msecs (HTTP/1.0 200) 4 headers in 132 bytes (1 switches on core 1)
+[pid: 4819|app: 0|req: 25/114] 127.0.0.1 () {40 vars in 864 bytes} [Wed Jan 16 14:19:42 2019] GET /admin/auto/hostinfo/add/ => generated 7147 bytes in 74 msecs (HTTP/1.0 200) 7 headers in 395 bytes (1 switches on core 0)
+[pid: 4819|app: 0|req: 26/115] 127.0.0.1 () {38 vars in 729 bytes} [Wed Jan 16 14:19:42 2019] GET /admin/jsi18n/ => generated 7684 bytes in 14 msecs (HTTP/1.0 200) 4 headers in 132 bytes (1 switches on core 1)
+[pid: 4819|app: 0|req: 27/116] 127.0.0.1 () {48 vars in 1006 bytes} [Wed Jan 16 14:20:11 2019] POST /admin/auto/hostinfo/add/ => generated 0 bytes in 18 msecs (HTTP/1.0 302) 8 headers in 532 bytes (1 switches on core 0)
+[pid: 4819|app: 0|req: 28/117] 127.0.0.1 () {42 vars in 1118 bytes} [Wed Jan 16 14:20:11 2019] GET /admin/auto/hostinfo/ => generated 5304 bytes in 50 msecs (HTTP/1.0 200) 8 headers in 479 bytes (1 switches on core 1)
+[pid: 4818|app: 0|req: 25/118] 127.0.0.1 () {38 vars in 725 bytes} [Wed Jan 16 14:20:11 2019] GET /admin/jsi18n/ => generated 7684 bytes in 8 msecs (HTTP/1.0 200) 4 headers in 132 bytes (1 switches on core 1)
+[pid: 4820|app: 0|req: 36/119] 127.0.0.1 () {40 vars in 864 bytes} [Wed Jan 16 14:20:14 2019] GET /admin/auto/hostinfo/add/ => generated 7147 bytes in 41 msecs (HTTP/1.0 200) 7 headers in 395 bytes (1 switches on core 0)
+[pid: 4821|app: 0|req: 31/120] 127.0.0.1 () {38 vars in 730 bytes} [Wed Jan 16 14:20:14 2019] GET /admin/jsi18n/ => generated 7684 bytes in 18 msecs (HTTP/1.0 200) 4 headers in 132 bytes (1 switches on core 0)
+[pid: 4820|app: 0|req: 37/121] 127.0.0.1 () {48 vars in 1007 bytes} [Wed Jan 16 14:20:40 2019] POST /admin/auto/hostinfo/add/ => generated 0 bytes in 21 msecs (HTTP/1.0 302) 8 headers in 519 bytes (1 switches on core 1)
+[pid: 4820|app: 0|req: 38/122] 127.0.0.1 () {42 vars in 1106 bytes} [Wed Jan 16 14:20:40 2019] GET /admin/auto/hostinfo/ => generated 5520 bytes in 36 msecs (HTTP/1.0 200) 8 headers in 479 bytes (1 switches on core 0)
+[pid: 4819|app: 0|req: 29/123] 127.0.0.1 () {38 vars in 726 bytes} [Wed Jan 16 14:20:41 2019] GET /admin/jsi18n/ => generated 7684 bytes in 13 msecs (HTTP/1.0 200) 4 headers in 132 bytes (1 switches on core 0)
+[pid: 4820|app: 0|req: 39/124] 127.0.0.1 () {40 vars in 865 bytes} [Wed Jan 16 14:20:49 2019] GET /admin/auto/hostinfo/add/ => generated 7147 bytes in 23 msecs (HTTP/1.0 200) 7 headers in 395 bytes (1 switches on core 1)
+[pid: 4818|app: 0|req: 26/125] 127.0.0.1 () {38 vars in 730 bytes} [Wed Jan 16 14:20:49 2019] GET /admin/jsi18n/ => generated 7684 bytes in 9 msecs (HTTP/1.0 200) 4 headers in 132 bytes (1 switches on core 0)
+[pid: 4821|app: 0|req: 32/126] 127.0.0.1 () {48 vars in 1007 bytes} [Wed Jan 16 14:21:20 2019] POST /admin/auto/hostinfo/add/ => generated 0 bytes in 40 msecs (HTTP/1.0 302) 8 headers in 524 bytes (1 switches on core 1)
+[pid: 4819|app: 0|req: 30/127] 127.0.0.1 () {42 vars in 1111 bytes} [Wed Jan 16 14:21:20 2019] GET /admin/auto/hostinfo/ => generated 5759 bytes in 51 msecs (HTTP/1.0 200) 8 headers in 479 bytes (1 switches on core 1)
+[pid: 4818|app: 0|req: 27/128] 127.0.0.1 () {38 vars in 726 bytes} [Wed Jan 16 14:21:20 2019] GET /admin/jsi18n/ => generated 7684 bytes in 17 msecs (HTTP/1.0 200) 4 headers in 132 bytes (1 switches on core 1)
+[pid: 4818|app: 0|req: 28/129] 127.0.0.1 () {40 vars in 865 bytes} [Wed Jan 16 14:21:23 2019] GET /admin/auto/hostinfo/add/ => generated 7147 bytes in 93 msecs (HTTP/1.0 200) 7 headers in 395 bytes (1 switches on core 0)
+[pid: 4820|app: 0|req: 40/130] 127.0.0.1 () {38 vars in 730 bytes} [Wed Jan 16 14:21:23 2019] GET /admin/jsi18n/ => generated 7684 bytes in 12 msecs (HTTP/1.0 200) 4 headers in 132 bytes (1 switches on core 0)
+[pid: 4820|app: 0|req: 41/131] 127.0.0.1 () {48 vars in 1007 bytes} [Wed Jan 16 14:21:42 2019] POST /admin/auto/hostinfo/add/ => generated 0 bytes in 24 msecs (HTTP/1.0 302) 8 headers in 532 bytes (1 switches on core 1)
+[pid: 4819|app: 0|req: 31/132] 127.0.0.1 () {42 vars in 1119 bytes} [Wed Jan 16 14:21:42 2019] GET /admin/auto/hostinfo/ => generated 6009 bytes in 40 msecs (HTTP/1.0 200) 8 headers in 479 bytes (1 switches on core 0)
+[pid: 4819|app: 0|req: 32/133] 127.0.0.1 () {38 vars in 726 bytes} [Wed Jan 16 14:21:42 2019] GET /admin/jsi18n/ => generated 7684 bytes in 12 msecs (HTTP/1.0 200) 4 headers in 132 bytes (1 switches on core 1)
+[pid: 4821|app: 0|req: 33/134] 127.0.0.1 () {40 vars in 875 bytes} [Wed Jan 16 14:21:44 2019] GET /admin/auto/hostinfo/7/change/ => generated 7505 bytes in 64 msecs (HTTP/1.0 200) 7 headers in 395 bytes (1 switches on core 0)
+[pid: 4821|app: 0|req: 34/135] 127.0.0.1 () {38 vars in 735 bytes} [Wed Jan 16 14:21:44 2019] GET /admin/jsi18n/ => generated 7684 bytes in 12 msecs (HTTP/1.0 200) 4 headers in 132 bytes (1 switches on core 1)
+[pid: 4818|app: 0|req: 29/136] 127.0.0.1 () {48 vars in 1022 bytes} [Wed Jan 16 14:21:50 2019] POST /admin/auto/hostinfo/7/change/ => generated 0 bytes in 29 msecs (HTTP/1.0 302) 8 headers in 532 bytes (1 switches on core 1)
+[pid: 4818|app: 0|req: 30/137] 127.0.0.1 () {42 vars in 1124 bytes} [Wed Jan 16 14:21:50 2019] GET /admin/auto/hostinfo/ => generated 6009 bytes in 36 msecs (HTTP/1.0 200) 8 headers in 479 bytes (1 switches on core 0)
+[pid: 4820|app: 0|req: 42/138] 127.0.0.1 () {38 vars in 726 bytes} [Wed Jan 16 14:21:50 2019] GET /admin/jsi18n/ => generated 7684 bytes in 12 msecs (HTTP/1.0 200) 4 headers in 132 bytes (1 switches on core 0)
+[pid: 4821|app: 0|req: 35/139] 127.0.0.1 () {40 vars in 875 bytes} [Wed Jan 16 14:21:52 2019] GET /admin/auto/hostinfo/4/change/ => generated 7507 bytes in 42 msecs (HTTP/1.0 200) 7 headers in 395 bytes (1 switches on core 0)
+[pid: 4820|app: 0|req: 43/140] 127.0.0.1 () {38 vars in 735 bytes} [Wed Jan 16 14:21:52 2019] GET /admin/jsi18n/ => generated 7684 bytes in 14 msecs (HTTP/1.0 200) 4 headers in 132 bytes (1 switches on core 1)
+[pid: 4819|app: 0|req: 33/141] 127.0.0.1 () {40 vars in 866 bytes} [Wed Jan 16 14:21:54 2019] GET /admin/auto/hostinfo/ => generated 5817 bytes in 19 msecs (HTTP/1.0 200) 7 headers in 395 bytes (1 switches on core 0)
+[pid: 4818|app: 0|req: 31/142] 127.0.0.1 () {40 vars in 865 bytes} [Wed Jan 16 14:21:57 2019] GET /admin/auto/hostinfo/add/ => generated 7147 bytes in 34 msecs (HTTP/1.0 200) 7 headers in 395 bytes (1 switches on core 1)
+[pid: 4818|app: 0|req: 32/143] 127.0.0.1 () {38 vars in 730 bytes} [Wed Jan 16 14:21:57 2019] GET /admin/jsi18n/ => generated 7684 bytes in 9 msecs (HTTP/1.0 200) 4 headers in 132 bytes (1 switches on core 0)
+[pid: 4821|app: 0|req: 36/144] 127.0.0.1 () {48 vars in 1007 bytes} [Wed Jan 16 14:22:19 2019] POST /admin/auto/hostinfo/add/ => generated 0 bytes in 23 msecs (HTTP/1.0 302) 8 headers in 520 bytes (1 switches on core 1)
+[pid: 4819|app: 0|req: 34/145] 127.0.0.1 () {42 vars in 1107 bytes} [Wed Jan 16 14:22:19 2019] GET /admin/auto/hostinfo/ => generated 6227 bytes in 41 msecs (HTTP/1.0 200) 8 headers in 479 bytes (1 switches on core 1)
+[pid: 4819|app: 0|req: 35/146] 127.0.0.1 () {38 vars in 726 bytes} [Wed Jan 16 14:22:19 2019] GET /admin/jsi18n/ => generated 7684 bytes in 11 msecs (HTTP/1.0 200) 4 headers in 132 bytes (1 switches on core 0)
+[pid: 4818|app: 0|req: 33/147] 127.0.0.1 () {40 vars in 865 bytes} [Wed Jan 16 14:22:22 2019] GET /admin/auto/hostinfo/add/ => generated 7147 bytes in 38 msecs (HTTP/1.0 200) 7 headers in 395 bytes (1 switches on core 1)
+[pid: 4818|app: 0|req: 34/148] 127.0.0.1 () {38 vars in 730 bytes} [Wed Jan 16 14:22:22 2019] GET /admin/jsi18n/ => generated 7684 bytes in 11 msecs (HTTP/1.0 200) 4 headers in 132 bytes (1 switches on core 0)
+[pid: 4819|app: 0|req: 36/149] 127.0.0.1 () {48 vars in 1007 bytes} [Wed Jan 16 14:22:54 2019] POST /admin/auto/hostinfo/add/ => generated 0 bytes in 18 msecs (HTTP/1.0 302) 8 headers in 525 bytes (1 switches on core 1)
+[pid: 4819|app: 0|req: 37/150] 127.0.0.1 () {42 vars in 1112 bytes} [Wed Jan 16 14:22:54 2019] GET /admin/auto/hostinfo/ => generated 6467 bytes in 23 msecs (HTTP/1.0 200) 8 headers in 479 bytes (1 switches on core 0)
+[pid: 4818|app: 0|req: 35/151] 127.0.0.1 () {38 vars in 726 bytes} [Wed Jan 16 14:22:54 2019] GET /admin/jsi18n/ => generated 7684 bytes in 8 msecs (HTTP/1.0 200) 4 headers in 132 bytes (1 switches on core 1)
+[pid: 4818|app: 0|req: 36/152] 127.0.0.1 () {40 vars in 865 bytes} [Wed Jan 16 14:22:56 2019] GET /admin/auto/hostinfo/add/ => generated 7147 bytes in 19 msecs (HTTP/1.0 200) 7 headers in 395 bytes (1 switches on core 0)
+[pid: 4820|app: 0|req: 44/153] 127.0.0.1 () {38 vars in 730 bytes} [Wed Jan 16 14:22:56 2019] GET /admin/jsi18n/ => generated 7684 bytes in 12 msecs (HTTP/1.0 200) 4 headers in 132 bytes (1 switches on core 0)
+[pid: 4821|app: 0|req: 37/154] 127.0.0.1 () {48 vars in 1007 bytes} [Wed Jan 16 14:23:20 2019] POST /admin/auto/hostinfo/add/ => generated 0 bytes in 19 msecs (HTTP/1.0 302) 8 headers in 527 bytes (1 switches on core 0)
+[pid: 4820|app: 0|req: 45/155] 127.0.0.1 () {42 vars in 1114 bytes} [Wed Jan 16 14:23:20 2019] GET /admin/auto/hostinfo/ => generated 6710 bytes in 31 msecs (HTTP/1.0 200) 8 headers in 479 bytes (1 switches on core 1)
+[pid: 4821|app: 0|req: 38/156] 127.0.0.1 () {38 vars in 724 bytes} [Wed Jan 16 14:23:20 2019] GET /admin/jsi18n/ => generated 7684 bytes in 11 msecs (HTTP/1.0 200) 4 headers in 132 bytes (1 switches on core 1)
+[pid: 4820|app: 0|req: 46/157] 127.0.0.1 () {40 vars in 864 bytes} [Wed Jan 16 14:23:22 2019] GET /admin/auto/hostinfo/add/ => generated 7147 bytes in 42 msecs (HTTP/1.0 200) 7 headers in 395 bytes (1 switches on core 0)
+[pid: 4819|app: 0|req: 38/158] 127.0.0.1 () {38 vars in 729 bytes} [Wed Jan 16 14:23:22 2019] GET /admin/jsi18n/ => generated 7684 bytes in 9 msecs (HTTP/1.0 200) 4 headers in 132 bytes (1 switches on core 1)
+[pid: 4820|app: 0|req: 47/159] 127.0.0.1 () {48 vars in 1006 bytes} [Wed Jan 16 14:23:48 2019] POST /admin/auto/hostinfo/add/ => generated 0 bytes in 13 msecs (HTTP/1.0 302) 8 headers in 528 bytes (1 switches on core 1)
+[pid: 4819|app: 0|req: 39/160] 127.0.0.1 () {42 vars in 1114 bytes} [Wed Jan 16 14:23:48 2019] GET /admin/auto/hostinfo/ => generated 6950 bytes in 23 msecs (HTTP/1.0 200) 8 headers in 479 bytes (1 switches on core 0)
+[pid: 4821|app: 0|req: 39/161] 127.0.0.1 () {38 vars in 725 bytes} [Wed Jan 16 14:23:48 2019] GET /admin/jsi18n/ => generated 7684 bytes in 12 msecs (HTTP/1.0 200) 4 headers in 132 bytes (1 switches on core 0)
+[pid: 4818|app: 0|req: 37/162] 127.0.0.1 () {40 vars in 864 bytes} [Wed Jan 16 14:23:50 2019] GET /admin/auto/hostinfo/add/ => generated 7147 bytes in 51 msecs (HTTP/1.0 200) 7 headers in 395 bytes (1 switches on core 1)
+[pid: 4821|app: 0|req: 40/163] 127.0.0.1 () {38 vars in 730 bytes} [Wed Jan 16 14:23:50 2019] GET /admin/jsi18n/ => generated 7684 bytes in 12 msecs (HTTP/1.0 200) 4 headers in 132 bytes (1 switches on core 1)
+[pid: 4819|app: 0|req: 40/164] 127.0.0.1 () {48 vars in 1007 bytes} [Wed Jan 16 14:24:10 2019] POST /admin/auto/hostinfo/add/ => generated 0 bytes in 20 msecs (HTTP/1.0 302) 8 headers in 528 bytes (1 switches on core 1)
+[pid: 4818|app: 0|req: 38/165] 127.0.0.1 () {42 vars in 1115 bytes} [Wed Jan 16 14:24:10 2019] GET /admin/auto/hostinfo/ => generated 7189 bytes in 43 msecs (HTTP/1.0 200) 8 headers in 479 bytes (1 switches on core 0)
+[pid: 4818|app: 0|req: 39/166] 127.0.0.1 () {38 vars in 726 bytes} [Wed Jan 16 14:24:10 2019] GET /admin/jsi18n/ => generated 7684 bytes in 12 msecs (HTTP/1.0 200) 4 headers in 132 bytes (1 switches on core 1)
+[pid: 4820|app: 0|req: 48/167] 127.0.0.1 () {40 vars in 877 bytes} [Wed Jan 16 14:24:15 2019] GET /admin/auto/hostinfo/12/change/ => generated 7494 bytes in 42 msecs (HTTP/1.0 200) 7 headers in 395 bytes (1 switches on core 0)
+[pid: 4818|app: 0|req: 40/168] 127.0.0.1 () {38 vars in 736 bytes} [Wed Jan 16 14:24:15 2019] GET /admin/jsi18n/ => generated 7684 bytes in 13 msecs (HTTP/1.0 200) 4 headers in 132 bytes (1 switches on core 0)
+[pid: 4820|app: 0|req: 49/169] 127.0.0.1 () {48 vars in 1025 bytes} [Wed Jan 16 14:24:17 2019] POST /admin/auto/hostinfo/12/change/ => generated 0 bytes in 13 msecs (HTTP/1.0 302) 8 headers in 528 bytes (1 switches on core 1)
+[pid: 4821|app: 0|req: 41/170] 127.0.0.1 () {42 vars in 1121 bytes} [Wed Jan 16 14:24:17 2019] GET /admin/auto/hostinfo/ => generated 7189 bytes in 48 msecs (HTTP/1.0 200) 8 headers in 479 bytes (1 switches on core 0)
+[pid: 4821|app: 0|req: 42/171] 127.0.0.1 () {38 vars in 726 bytes} [Wed Jan 16 14:24:17 2019] GET /admin/jsi18n/ => generated 7684 bytes in 6 msecs (HTTP/1.0 200) 4 headers in 132 bytes (1 switches on core 1)
+[pid: 4819|app: 0|req: 41/172] 127.0.0.1 () {38 vars in 759 bytes} [Wed Jan 16 14:24:19 2019] GET / => generated 0 bytes in 1 msecs (HTTP/1.0 302) 4 headers in 130 bytes (1 switches on core 0)
+[pid: 4819|app: 0|req: 42/173] 127.0.0.1 () {38 vars in 774 bytes} [Wed Jan 16 14:24:19 2019] GET /pag/?P1/ => generated 3866 bytes in 14 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 4819|app: 0|req: 43/174] 127.0.0.1 () {40 vars in 795 bytes} [Wed Jan 16 14:24:43 2019] GET /admin/ => generated 7215 bytes in 33 msecs (HTTP/1.0 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 4819|app: 0|req: 44/175] 127.0.0.1 () {38 vars in 771 bytes} [Wed Jan 16 14:24:43 2019] GET /admin/ => generated 7215 bytes in 18 msecs (HTTP/1.0 200) 6 headers in 227 bytes (1 switches on core 1)
+[pid: 4818|app: 0|req: 41/176] 127.0.0.1 () {40 vars in 843 bytes} [Wed Jan 16 14:26:00 2019] GET /admin/auto/hostinfo/ => generated 7001 bytes in 36 msecs (HTTP/1.0 200) 7 headers in 395 bytes (1 switches on core 1)
+[pid: 4820|app: 0|req: 50/177] 127.0.0.1 () {38 vars in 726 bytes} [Wed Jan 16 14:26:00 2019] GET /admin/jsi18n/ => generated 7684 bytes in 14 msecs (HTTP/1.0 200) 4 headers in 132 bytes (1 switches on core 0)
+[pid: 4820|app: 0|req: 51/178] 127.0.0.1 () {40 vars in 875 bytes} [Wed Jan 16 14:26:02 2019] GET /admin/auto/hostinfo/5/change/ => generated 7466 bytes in 33 msecs (HTTP/1.0 200) 7 headers in 395 bytes (1 switches on core 1)
+[pid: 4818|app: 0|req: 42/179] 127.0.0.1 () {38 vars in 735 bytes} [Wed Jan 16 14:26:03 2019] GET /admin/jsi18n/ => generated 7684 bytes in 7 msecs (HTTP/1.0 200) 4 headers in 132 bytes (1 switches on core 0)
+[pid: 4818|app: 0|req: 43/180] 127.0.0.1 () {48 vars in 1022 bytes} [Wed Jan 16 14:26:10 2019] POST /admin/auto/hostinfo/5/change/ => generated 0 bytes in 23 msecs (HTTP/1.0 302) 8 headers in 519 bytes (1 switches on core 1)
+[pid: 4819|app: 0|req: 45/181] 127.0.0.1 () {42 vars in 1111 bytes} [Wed Jan 16 14:26:10 2019] GET /admin/auto/hostinfo/ => generated 7180 bytes in 45 msecs (HTTP/1.0 200) 8 headers in 479 bytes (1 switches on core 0)
+[pid: 4819|app: 0|req: 46/182] 127.0.0.1 () {38 vars in 726 bytes} [Wed Jan 16 14:26:10 2019] GET /admin/jsi18n/ => generated 7684 bytes in 12 msecs (HTTP/1.0 200) 4 headers in 132 bytes (1 switches on core 1)
+[pid: 4818|app: 0|req: 44/183] 127.0.0.1 () {38 vars in 759 bytes} [Wed Jan 16 14:26:12 2019] GET / => generated 0 bytes in 1 msecs (HTTP/1.0 302) 4 headers in 130 bytes (1 switches on core 0)
+[pid: 4820|app: 0|req: 52/184] 127.0.0.1 () {38 vars in 774 bytes} [Wed Jan 16 14:26:12 2019] GET /pag/?P1/ => generated 3868 bytes in 12 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 0)
+./auto/views.py:21: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'auto.models.StatusInfo'> QuerySet.
+  p = Paginator(statulist, 30)
+[pid: 4820|app: 0|req: 53/185] 127.0.0.1 () {40 vars in 876 bytes} [Wed Jan 16 14:26:21 2019] GET /pag/172.31.3.140/pag/?a=172.31.3.140 => generated 452 bytes in 23 msecs (HTTP/1.0 200) 3 headers in 109 bytes (1 switches on core 1)
+./auto/views.py:21: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'auto.models.StatusInfo'> QuerySet.
+  p = Paginator(statulist, 30)
+[pid: 4819|app: 0|req: 47/186] 127.0.0.1 () {40 vars in 876 bytes} [Wed Jan 16 14:28:31 2019] GET /pag/172.31.3.140/pag/?a=172.31.3.140 => generated 452 bytes in 8 msecs (HTTP/1.0 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 4819|app: 0|req: 48/187] 127.0.0.1 () {38 vars in 771 bytes} [Wed Jan 16 14:28:42 2019] GET /admin/ => generated 7218 bytes in 34 msecs (HTTP/1.0 200) 6 headers in 227 bytes (1 switches on core 1)
+[pid: 4819|app: 0|req: 49/188] 127.0.0.1 () {40 vars in 843 bytes} [Wed Jan 16 14:28:44 2019] GET /admin/auto/hostinfo/ => generated 7001 bytes in 41 msecs (HTTP/1.0 200) 7 headers in 395 bytes (1 switches on core 0)
+[pid: 4818|app: 0|req: 45/189] 127.0.0.1 () {38 vars in 726 bytes} [Wed Jan 16 14:28:44 2019] GET /admin/jsi18n/ => generated 7684 bytes in 12 msecs (HTTP/1.0 200) 4 headers in 132 bytes (1 switches on core 1)
+[pid: 4818|app: 0|req: 46/190] 127.0.0.1 () {40 vars in 877 bytes} [Wed Jan 16 14:31:08 2019] GET /admin/auto/hostinfo/12/change/ => generated 7494 bytes in 52 msecs (HTTP/1.0 200) 7 headers in 395 bytes (1 switches on core 0)
+[pid: 4820|app: 0|req: 54/191] 127.0.0.1 () {38 vars in 736 bytes} [Wed Jan 16 14:31:08 2019] GET /admin/jsi18n/ => generated 7684 bytes in 10 msecs (HTTP/1.0 200) 4 headers in 132 bytes (1 switches on core 0)
+[pid: 4821|app: 0|req: 43/192] 127.0.0.1 () {48 vars in 1025 bytes} [Wed Jan 16 14:31:20 2019] POST /admin/auto/hostinfo/12/change/ => generated 0 bytes in 19 msecs (HTTP/1.0 302) 8 headers in 530 bytes (1 switches on core 0)
+[pid: 4820|app: 0|req: 55/193] 127.0.0.1 () {42 vars in 1123 bytes} [Wed Jan 16 14:31:20 2019] GET /admin/auto/hostinfo/ => generated 7193 bytes in 24 msecs (HTTP/1.0 200) 8 headers in 479 bytes (1 switches on core 1)
+[pid: 4821|app: 0|req: 44/194] 127.0.0.1 () {38 vars in 726 bytes} [Wed Jan 16 14:31:20 2019] GET /admin/jsi18n/ => generated 7684 bytes in 12 msecs (HTTP/1.0 200) 4 headers in 132 bytes (1 switches on core 1)
+[pid: 4820|app: 0|req: 56/195] 127.0.0.1 () {40 vars in 877 bytes} [Wed Jan 16 14:31:22 2019] GET /admin/auto/hostinfo/11/change/ => generated 7494 bytes in 25 msecs (HTTP/1.0 200) 7 headers in 395 bytes (1 switches on core 0)
+[pid: 4818|app: 0|req: 47/196] 127.0.0.1 () {38 vars in 736 bytes} [Wed Jan 16 14:31:22 2019] GET /admin/jsi18n/ => generated 7684 bytes in 7 msecs (HTTP/1.0 200) 4 headers in 132 bytes (1 switches on core 1)
+[pid: 4820|app: 0|req: 57/197] 127.0.0.1 () {40 vars in 849 bytes} [Wed Jan 16 14:31:40 2019] GET /admin/auto/ => generated 2873 bytes in 35 msecs (HTTP/1.0 200) 6 headers in 227 bytes (1 switches on core 1)
+[pid: 4821|app: 0|req: 45/198] 127.0.0.1 () {40 vars in 848 bytes} [Wed Jan 16 14:33:07 2019] GET /admin/auto/hostinfo/ => generated 7025 bytes in 25 msecs (HTTP/1.0 200) 7 headers in 395 bytes (1 switches on core 0)
+[pid: 4821|app: 0|req: 46/199] 127.0.0.1 () {38 vars in 724 bytes} [Wed Jan 16 14:33:08 2019] GET /admin/jsi18n/ => generated 7684 bytes in 7 msecs (HTTP/1.0 200) 4 headers in 132 bytes (1 switches on core 1)
+[pid: 4818|app: 0|req: 48/200] 127.0.0.1 () {38 vars in 758 bytes} [Wed Jan 16 14:33:12 2019] GET / => generated 0 bytes in 1 msecs (HTTP/1.0 302) 4 headers in 130 bytes (1 switches on core 0)
+[pid: 4819|app: 0|req: 50/201] 127.0.0.1 () {38 vars in 773 bytes} [Wed Jan 16 14:33:12 2019] GET /pag/?P1/ => generated 3940 bytes in 15 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 4819|app: 0|req: 51/202] 127.0.0.1 () {40 vars in 883 bytes} [Wed Jan 16 14:43:53 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245 => generated 4964 bytes in 15 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 4819|app: 0|req: 52/203] 127.0.0.1 () {40 vars in 883 bytes} [Wed Jan 16 14:44:02 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245 => generated 4964 bytes in 25 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 4819|app: 0|req: 53/204] 127.0.0.1 () {40 vars in 883 bytes} [Wed Jan 16 14:45:44 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245 => generated 6161 bytes in 30 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 4819|app: 0|req: 54/205] 127.0.0.1 () {40 vars in 917 bytes} [Wed Jan 16 14:45:48 2019] GET /pag/172.16.255.245/pag2/?a=172.16.255.245 => generated 1651 bytes in 12 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+./auto/views.py:21: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'auto.models.StatusInfo'> QuerySet.
+  p = Paginator(statulist, 30)
+[pid: 4821|app: 0|req: 47/206] 127.0.0.1 () {40 vars in 884 bytes} [Wed Jan 16 14:45:56 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245 => generated 6161 bytes in 27 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 4819|app: 0|req: 55/207] 127.0.0.1 () {40 vars in 884 bytes} [Wed Jan 16 14:45:58 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245 => generated 6161 bytes in 19 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 4821|app: 0|req: 48/208] 127.0.0.1 () {40 vars in 884 bytes} [Wed Jan 16 14:46:01 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245 => generated 6161 bytes in 17 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 4821|app: 0|req: 49/209] 127.0.0.1 () {40 vars in 884 bytes} [Wed Jan 16 14:46:12 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245 => generated 6161 bytes in 18 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 4821|app: 0|req: 50/210] 127.0.0.1 () {40 vars in 884 bytes} [Wed Jan 16 14:46:27 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245 => generated 6161 bytes in 20 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 4819|app: 0|req: 56/211] 127.0.0.1 () {40 vars in 884 bytes} [Wed Jan 16 15:00:36 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245 => generated 6231 bytes in 21 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 4819|app: 0|req: 57/212] 127.0.0.1 () {40 vars in 805 bytes} [Wed Jan 16 15:00:39 2019] GET /pag/?P1/ => generated 3940 bytes in 14 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 0)
+./auto/views.py:21: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'auto.models.StatusInfo'> QuerySet.
+  statulist = StatusInfo.objects.filter(ip=a, port=b)
+[pid: 4818|app: 0|req: 49/213] 127.0.0.1 () {40 vars in 884 bytes} [Wed Jan 16 15:00:40 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245 => generated 659 bytes in 17 msecs (HTTP/1.0 200) 3 headers in 109 bytes (1 switches on core 1)
+[pid: 4820|app: 0|req: 58/214] 127.0.0.1 () {40 vars in 884 bytes} [Wed Jan 16 15:00:45 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245 => generated 6231 bytes in 22 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 4820|app: 0|req: 59/215] 127.0.0.1 () {40 vars in 884 bytes} [Wed Jan 16 15:00:50 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245 => generated 6231 bytes in 9 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+./auto/views.py:9: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'auto.models.HostInfo'> QuerySet.
+  p = Paginator(hostlist, 30)
+[pid: 4818|app: 0|req: 50/216] 127.0.0.1 () {40 vars in 805 bytes} [Wed Jan 16 15:00:59 2019] GET /pag/?P1/ => generated 4025 bytes in 19 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 4819|app: 0|req: 58/217] 127.0.0.1 () {40 vars in 805 bytes} [Wed Jan 16 15:00:59 2019] GET /pag/?P1/ => generated 3940 bytes in 13 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 4818|app: 0|req: 51/218] 127.0.0.1 () {40 vars in 805 bytes} [Wed Jan 16 15:00:59 2019] GET /pag/?P1/ => generated 4025 bytes in 12 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 4820|app: 0|req: 60/219] 127.0.0.1 () {40 vars in 805 bytes} [Wed Jan 16 15:01:00 2019] GET /pag/?P1/ => generated 3940 bytes in 6 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 0)
+./auto/views.py:9: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'auto.models.HostInfo'> QuerySet.
+  p = Paginator(hostlist, 30)
+[pid: 4821|app: 0|req: 51/220] 127.0.0.1 () {40 vars in 805 bytes} [Wed Jan 16 15:01:00 2019] GET /pag/?P1/ => generated 4025 bytes in 13 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 4821|app: 0|req: 52/221] 127.0.0.1 () {40 vars in 898 bytes} [Wed Jan 16 15:01:01 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8061 => generated 6231 bytes in 18 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 4820|app: 0|req: 61/222] 127.0.0.1 () {40 vars in 925 bytes} [Wed Jan 16 15:01:07 2019] GET /pag/172.16.255.245/pag2/?a=172.16.255.245 => generated 6233 bytes in 14 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 4818|app: 0|req: 52/223] 127.0.0.1 () {40 vars in 919 bytes} [Wed Jan 16 15:01:10 2019] GET /pag/172.16.255.245/pag3/?a=172.16.255.245 => generated 623 bytes in 11 msecs (HTTP/1.0 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 4818|app: 0|req: 53/224] 127.0.0.1 () {40 vars in 898 bytes} [Wed Jan 16 15:01:15 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8087 => generated 659 bytes in 13 msecs (HTTP/1.0 200) 3 headers in 109 bytes (1 switches on core 1)
+[pid: 4821|app: 0|req: 53/225] 127.0.0.1 () {40 vars in 898 bytes} [Wed Jan 16 15:01:20 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8089 => generated 6231 bytes in 20 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 4819|app: 0|req: 59/226] 127.0.0.1 () {40 vars in 898 bytes} [Wed Jan 16 15:01:25 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8083 => generated 6231 bytes in 20 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 4821|app: 0|req: 54/227] 127.0.0.1 () {40 vars in 898 bytes} [Wed Jan 16 15:01:28 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8085 => generated 6231 bytes in 19 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 4818|app: 0|req: 54/228] 127.0.0.1 () {40 vars in 898 bytes} [Wed Jan 16 15:01:35 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8061 => generated 659 bytes in 11 msecs (HTTP/1.0 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 4819|app: 0|req: 60/229] 127.0.0.1 () {40 vars in 931 bytes} [Wed Jan 16 15:01:38 2019] GET /pag/172.16.255.245/pag2/?a=172.16.255.245&b= => generated 6233 bytes in 11 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 4818|app: 0|req: 55/230] 127.0.0.1 () {42 vars in 929 bytes} [Wed Jan 16 15:04:50 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8061 => generated 659 bytes in 15 msecs (HTTP/1.0 200) 3 headers in 109 bytes (1 switches on core 1)
+[pid: 4818|app: 0|req: 56/231] 127.0.0.1 () {42 vars in 929 bytes} [Wed Jan 16 15:04:50 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8061 => generated 659 bytes in 8 msecs (HTTP/1.0 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 4820|app: 0|req: 62/232] 127.0.0.1 () {42 vars in 929 bytes} [Wed Jan 16 15:04:50 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8061 => generated 6231 bytes in 20 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 4820|app: 0|req: 63/233] 127.0.0.1 () {38 vars in 759 bytes} [Wed Jan 16 15:04:56 2019] GET / => generated 0 bytes in 1 msecs (HTTP/1.0 302) 4 headers in 130 bytes (1 switches on core 1)
+[pid: 4818|app: 0|req: 57/234] 127.0.0.1 () {38 vars in 774 bytes} [Wed Jan 16 15:04:56 2019] GET /pag/?P1/ => generated 4025 bytes in 13 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 4818|app: 0|req: 58/235] 127.0.0.1 () {40 vars in 898 bytes} [Wed Jan 16 15:04:57 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8061 => generated 659 bytes in 13 msecs (HTTP/1.0 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 4819|app: 0|req: 61/236] 127.0.0.1 () {40 vars in 898 bytes} [Wed Jan 16 15:05:00 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8087 => generated 6231 bytes in 34 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 4819|app: 0|req: 62/237] 127.0.0.1 () {40 vars in 898 bytes} [Wed Jan 16 15:05:04 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8061 => generated 6231 bytes in 27 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 4818|app: 0|req: 59/238] 127.0.0.1 () {40 vars in 898 bytes} [Wed Jan 16 15:05:11 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8089 => generated 659 bytes in 9 msecs (HTTP/1.0 200) 3 headers in 109 bytes (1 switches on core 1)
+[pid: 4818|app: 0|req: 60/239] 127.0.0.1 () {40 vars in 931 bytes} [Wed Jan 16 15:05:13 2019] GET /pag/172.16.255.245/pag2/?a=172.16.255.245&b= => generated 659 bytes in 8 msecs (HTTP/1.0 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 4820|app: 0|req: 64/240] 127.0.0.1 () {40 vars in 928 bytes} [Wed Jan 16 15:05:14 2019] GET /pag/172.16.255.245/pag3/?a=172.16.255.245&b= => generated 5104 bytes in 15 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 4818|app: 0|req: 61/241] 127.0.0.1 () {40 vars in 922 bytes} [Wed Jan 16 15:05:17 2019] GET /pag/172.16.255.245/pag2/?a=172.16.255.245 => generated 659 bytes in 10 msecs (HTTP/1.0 200) 3 headers in 109 bytes (1 switches on core 1)
+[pid: 4819|app: 0|req: 63/242] 127.0.0.1 () {40 vars in 925 bytes} [Wed Jan 16 15:05:19 2019] GET /pag/172.16.255.245/pag1/?a=172.16.255.245&b= => generated 6231 bytes in 20 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 4820|app: 0|req: 65/243] 127.0.0.1 () {40 vars in 921 bytes} [Wed Jan 16 15:05:23 2019] GET /pag/172.16.255.245/pag2/?a=172.16.255.245 => generated 6233 bytes in 17 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 4819|app: 0|req: 64/244] 127.0.0.1 () {40 vars in 918 bytes} [Wed Jan 16 15:05:24 2019] GET /pag/172.16.255.245/pag3/?a=172.16.255.245 => generated 5104 bytes in 10 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 4820|app: 0|req: 66/245] 127.0.0.1 () {40 vars in 918 bytes} [Wed Jan 16 15:05:26 2019] GET /pag/172.16.255.245/pag1/?a=172.16.255.245 => generated 6231 bytes in 19 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 4820|app: 0|req: 67/246] 127.0.0.1 () {40 vars in 918 bytes} [Wed Jan 16 15:05:30 2019] GET /pag/172.16.255.245/pag2/?a=172.16.255.245 => generated 6233 bytes in 23 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 4818|app: 0|req: 62/247] 127.0.0.1 () {40 vars in 918 bytes} [Wed Jan 16 15:05:33 2019] GET /pag/172.16.255.245/pag3/?a=172.16.255.245 => generated 647 bytes in 20 msecs (HTTP/1.0 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 4818|app: 0|req: 63/248] 127.0.0.1 () {40 vars in 924 bytes} [Wed Jan 16 15:05:36 2019] GET /pag/172.16.255.245/pag1/?a=172.16.255.245&b= => generated 659 bytes in 19 msecs (HTTP/1.0 200) 3 headers in 109 bytes (1 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 4823)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Jan 16 15:06:31 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 15 January 2019 06:16:40
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: localhost.localdomain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /usr/local/django/test2
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/django
+your processes number limit is 7190
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:39679 (port auto-assigned) fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.2 (default, Jan  7 2019, 09:42:04)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x2a01da0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x2a01da0 pid: 4974 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4974)
+spawned uWSGI worker 1 (pid: 4975, cores: 2)
+spawned uWSGI worker 2 (pid: 4976, cores: 2)
+spawned uWSGI worker 3 (pid: 4977, cores: 2)
+spawned uWSGI worker 4 (pid: 4979, cores: 2)
+spawned uWSGI http 1 (pid: 4980)
+[pid: 4979|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 759 bytes} [Wed Jan 16 15:06:36 2019] GET / => generated 0 bytes in 21 msecs (HTTP/1.0 302) 4 headers in 130 bytes (1 switches on core 0)
+./auto/views.py:9: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'auto.models.HostInfo'> QuerySet.
+  p = Paginator(hostlist, 30)
+[pid: 4975|app: 0|req: 1/2] 127.0.0.1 () {38 vars in 774 bytes} [Wed Jan 16 15:06:36 2019] GET /pag/?P1/ => generated 4025 bytes in 66 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 0)
+./auto/views.py:22: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'auto.models.StatusInfo'> QuerySet.
+  p = Paginator(statulist, 30)
+[pid: 4975|app: 0|req: 2/3] 127.0.0.1 () {40 vars in 898 bytes} [Wed Jan 16 15:06:37 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8061 => generated 472 bytes in 16 msecs (HTTP/1.0 200) 3 headers in 109 bytes (1 switches on core 1)
+./auto/views.py:22: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'auto.models.StatusInfo'> QuerySet.
+  p = Paginator(statulist, 30)
+[pid: 4976|app: 0|req: 1/4] 127.0.0.1 () {40 vars in 898 bytes} [Wed Jan 16 15:06:43 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8087 => generated 472 bytes in 68 msecs (HTTP/1.0 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 4976|app: 0|req: 2/5] 127.0.0.1 () {40 vars in 898 bytes} [Wed Jan 16 15:06:48 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8089 => generated 472 bytes in 10 msecs (HTTP/1.0 200) 3 headers in 109 bytes (1 switches on core 1)
+[pid: 4975|app: 0|req: 3/6] 127.0.0.1 () {40 vars in 898 bytes} [Wed Jan 16 15:06:51 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8086 => generated 472 bytes in 8 msecs (HTTP/1.0 200) 3 headers in 109 bytes (1 switches on core 0)
+./auto/views.py:22: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'auto.models.StatusInfo'> QuerySet.
+  p = Paginator(statulist, 30)
+[pid: 4979|app: 0|req: 2/7] 127.0.0.1 () {40 vars in 898 bytes} [Wed Jan 16 15:06:53 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8088 => generated 472 bytes in 51 msecs (HTTP/1.0 200) 3 headers in 109 bytes (1 switches on core 1)
+./auto/views.py:22: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'auto.models.StatusInfo'> QuerySet.
+  p = Paginator(statulist, 30)
+[pid: 4977|app: 0|req: 1/8] 127.0.0.1 () {40 vars in 898 bytes} [Wed Jan 16 15:06:55 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8084 => generated 472 bytes in 69 msecs (HTTP/1.0 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 4977|app: 0|req: 2/9] 127.0.0.1 () {40 vars in 898 bytes} [Wed Jan 16 15:06:58 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8090 => generated 472 bytes in 10 msecs (HTTP/1.0 200) 3 headers in 109 bytes (1 switches on core 1)
+[pid: 4976|app: 0|req: 3/10] 127.0.0.1 () {40 vars in 898 bytes} [Wed Jan 16 15:07:01 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8061 => generated 472 bytes in 9 msecs (HTTP/1.0 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 4976|app: 0|req: 4/11] 127.0.0.1 () {40 vars in 898 bytes} [Wed Jan 16 15:07:13 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8092 => generated 472 bytes in 9 msecs (HTTP/1.0 200) 3 headers in 109 bytes (1 switches on core 1)
+[pid: 4977|app: 0|req: 3/12] 127.0.0.1 () {40 vars in 898 bytes} [Wed Jan 16 15:07:23 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8093 => generated 472 bytes in 7 msecs (HTTP/1.0 200) 3 headers in 109 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 4980)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Jan 16 15:11:02 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 15 January 2019 06:16:40
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: localhost.localdomain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /usr/local/django/test2
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/django
+your processes number limit is 7190
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:42378 (port auto-assigned) fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.2 (default, Jan  7 2019, 09:42:04)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x16afda0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x16afda0 pid: 4994 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4994)
+spawned uWSGI worker 1 (pid: 4995, cores: 2)
+spawned uWSGI worker 2 (pid: 4996, cores: 2)
+spawned uWSGI worker 3 (pid: 4998, cores: 2)
+spawned uWSGI worker 4 (pid: 5000, cores: 2)
+spawned uWSGI http 1 (pid: 5002)
+./auto/views.py:9: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'auto.models.HostInfo'> QuerySet.
+  p = Paginator(hostlist, 30)
+[pid: 4998|app: 0|req: 1/1] 127.0.0.1 () {40 vars in 805 bytes} [Wed Jan 16 15:11:05 2019] GET /pag/?P1/ => generated 4025 bytes in 78 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 0)
+./auto/views.py:9: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'auto.models.HostInfo'> QuerySet.
+  p = Paginator(hostlist, 30)
+[pid: 4996|app: 0|req: 1/2] 127.0.0.1 () {40 vars in 805 bytes} [Wed Jan 16 15:11:06 2019] GET /pag/?P1/ => generated 4025 bytes in 56 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 4998|app: 0|req: 2/3] 127.0.0.1 () {40 vars in 805 bytes} [Wed Jan 16 15:11:07 2019] GET /pag/?P1/ => generated 4025 bytes in 13 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+./auto/views.py:9: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'auto.models.HostInfo'> QuerySet.
+  p = Paginator(hostlist, 30)
+[pid: 5000|app: 0|req: 1/4] 127.0.0.1 () {40 vars in 805 bytes} [Wed Jan 16 15:11:07 2019] GET /pag/?P1/ => generated 4025 bytes in 143 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 0)
+./auto/views.py:22: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'auto.models.StatusInfo'> QuerySet.
+  p = Paginator(statulist, 30)
+[pid: 4995|app: 0|req: 1/5] 127.0.0.1 () {40 vars in 898 bytes} [Wed Jan 16 15:11:08 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8061 => generated 474 bytes in 67 msecs (HTTP/1.0 200) 3 headers in 109 bytes (1 switches on core 0)
+./auto/views.py:22: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'auto.models.StatusInfo'> QuerySet.
+  p = Paginator(statulist, 30)
+[pid: 4996|app: 0|req: 2/6] 127.0.0.1 () {40 vars in 898 bytes} [Wed Jan 16 15:11:10 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8087 => generated 474 bytes in 14 msecs (HTTP/1.0 200) 3 headers in 109 bytes (1 switches on core 1)
+./auto/views.py:22: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'auto.models.StatusInfo'> QuerySet.
+  p = Paginator(statulist, 30)
+[pid: 5000|app: 0|req: 2/7] 127.0.0.1 () {40 vars in 898 bytes} [Wed Jan 16 15:11:13 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8082 => generated 474 bytes in 14 msecs (HTTP/1.0 200) 3 headers in 109 bytes (1 switches on core 1)
+[pid: 4995|app: 0|req: 2/8] 127.0.0.1 () {40 vars in 898 bytes} [Wed Jan 16 15:11:15 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8093 => generated 474 bytes in 9 msecs (HTTP/1.0 200) 3 headers in 109 bytes (1 switches on core 1)
+[pid: 5000|app: 0|req: 3/9] 127.0.0.1 () {40 vars in 898 bytes} [Wed Jan 16 15:11:18 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8086 => generated 474 bytes in 6 msecs (HTTP/1.0 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 5000|app: 0|req: 4/10] 127.0.0.1 () {40 vars in 898 bytes} [Wed Jan 16 15:11:20 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8086 => generated 474 bytes in 7 msecs (HTTP/1.0 200) 3 headers in 109 bytes (1 switches on core 1)
+./auto/views.py:22: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'auto.models.StatusInfo'> QuerySet.
+  p = Paginator(statulist, 30)
+[pid: 4998|app: 0|req: 3/11] 127.0.0.1 () {40 vars in 898 bytes} [Wed Jan 16 15:11:23 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8092 => generated 474 bytes in 11 msecs (HTTP/1.0 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 4998|app: 0|req: 4/12] 127.0.0.1 () {40 vars in 898 bytes} [Wed Jan 16 15:11:29 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8085 => generated 474 bytes in 8 msecs (HTTP/1.0 200) 3 headers in 109 bytes (1 switches on core 1)
+[pid: 5000|app: 0|req: 5/13] 127.0.0.1 () {40 vars in 898 bytes} [Wed Jan 16 15:11:32 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8085 => generated 474 bytes in 13 msecs (HTTP/1.0 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 5000|app: 0|req: 6/14] 127.0.0.1 () {40 vars in 898 bytes} [Wed Jan 16 15:11:36 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8088 => generated 474 bytes in 9 msecs (HTTP/1.0 200) 3 headers in 109 bytes (1 switches on core 1)
+[pid: 4995|app: 0|req: 3/15] 127.0.0.1 () {40 vars in 898 bytes} [Wed Jan 16 15:11:40 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8088 => generated 474 bytes in 10 msecs (HTTP/1.0 200) 3 headers in 109 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 5002)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Jan 16 15:13:52 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 15 January 2019 06:16:40
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: localhost.localdomain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /usr/local/django/test2
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/django
+your processes number limit is 7190
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:42381 (port auto-assigned) fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.2 (default, Jan  7 2019, 09:42:04)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x1efbda0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1efbda0 pid: 5019 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5019)
+spawned uWSGI worker 1 (pid: 5020, cores: 2)
+spawned uWSGI worker 2 (pid: 5021, cores: 2)
+spawned uWSGI worker 3 (pid: 5023, cores: 2)
+spawned uWSGI worker 4 (pid: 5024, cores: 2)
+spawned uWSGI http 1 (pid: 5026)
+./auto/views.py:9: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'auto.models.HostInfo'> QuerySet.
+  p = Paginator(hostlist, 30)
+[pid: 5021|app: 0|req: 1/1] 127.0.0.1 () {40 vars in 805 bytes} [Wed Jan 16 15:13:55 2019] GET /pag/?P1/ => generated 4025 bytes in 111 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 5021|app: 0|req: 2/2] 127.0.0.1 () {40 vars in 805 bytes} [Wed Jan 16 15:13:55 2019] GET /pag/?P1/ => generated 4025 bytes in 14 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+./auto/views.py:9: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'auto.models.HostInfo'> QuerySet.
+  p = Paginator(hostlist, 30)
+[pid: 5024|app: 0|req: 1/3] 127.0.0.1 () {40 vars in 805 bytes} [Wed Jan 16 15:13:55 2019] GET /pag/?P1/ => generated 4025 bytes in 106 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 0)
+./auto/views.py:9: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'auto.models.HostInfo'> QuerySet.
+  p = Paginator(hostlist, 30)
+[pid: 5020|app: 0|req: 1/4] 127.0.0.1 () {40 vars in 805 bytes} [Wed Jan 16 15:13:55 2019] GET /pag/?P1/ => generated 4025 bytes in 123 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 0)
+./auto/views.py:22: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'auto.models.StatusInfo'> QuerySet.
+  p = Paginator(statulist, 30)
+[pid: 5021|app: 0|req: 3/5] 127.0.0.1 () {40 vars in 898 bytes} [Wed Jan 16 15:13:56 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8061 => generated 1946 bytes in 18 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 5021|app: 0|req: 4/6] 127.0.0.1 () {40 vars in 898 bytes} [Wed Jan 16 15:13:59 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8089 => generated 1962 bytes in 12 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+./auto/views.py:22: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'auto.models.StatusInfo'> QuerySet.
+  p = Paginator(statulist, 30)
+[pid: 5024|app: 0|req: 2/7] 127.0.0.1 () {40 vars in 898 bytes} [Wed Jan 16 15:14:01 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8093 => generated 1906 bytes in 19 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 5021|app: 0|req: 5/8] 127.0.0.1 () {40 vars in 898 bytes} [Wed Jan 16 15:14:03 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8083 => generated 1946 bytes in 11 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 0)
+./auto/views.py:22: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'auto.models.StatusInfo'> QuerySet.
+  p = Paginator(statulist, 30)
+[pid: 5020|app: 0|req: 2/9] 127.0.0.1 () {40 vars in 898 bytes} [Wed Jan 16 15:14:08 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8085 => generated 1954 bytes in 17 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 5021|app: 0|req: 6/10] 127.0.0.1 () {40 vars in 896 bytes} [Wed Jan 16 15:14:12 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8088 => generated 1962 bytes in 6 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 5020|app: 0|req: 3/11] 127.0.0.1 () {40 vars in 897 bytes} [Wed Jan 16 15:14:14 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8090 => generated 1970 bytes in 11 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 5024|app: 0|req: 3/12] 127.0.0.1 () {40 vars in 897 bytes} [Wed Jan 16 15:14:17 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8061 => generated 1946 bytes in 12 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 5020|app: 0|req: 4/13] 127.0.0.1 () {40 vars in 897 bytes} [Wed Jan 16 15:14:23 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8089 => generated 1962 bytes in 12 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 5026)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Wed Jan 16 15:15:29 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 15 January 2019 06:16:40
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: localhost.localdomain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /usr/local/django/test2
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /usr/local/django
+your processes number limit is 7190
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:42623 (port auto-assigned) fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.2 (default, Jan  7 2019, 09:42:04)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+Python main interpreter initialized at 0x10c5da0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x10c5da0 pid: 5038 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5038)
+spawned uWSGI worker 1 (pid: 5039, cores: 2)
+spawned uWSGI worker 2 (pid: 5040, cores: 2)
+spawned uWSGI worker 3 (pid: 5042, cores: 2)
+spawned uWSGI worker 4 (pid: 5043, cores: 2)
+spawned uWSGI http 1 (pid: 5044)
+./auto/views.py:9: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'auto.models.HostInfo'> QuerySet.
+  p = Paginator(hostlist, 30)
+[pid: 5042|app: 0|req: 1/1] 127.0.0.1 () {40 vars in 804 bytes} [Wed Jan 16 15:15:32 2019] GET /pag/?P1/ => generated 4025 bytes in 113 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 5042|app: 0|req: 2/2] 127.0.0.1 () {40 vars in 804 bytes} [Wed Jan 16 15:15:32 2019] GET /pag/?P1/ => generated 4025 bytes in 13 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+./auto/views.py:9: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'auto.models.HostInfo'> QuerySet.
+  p = Paginator(hostlist, 30)
+[pid: 5039|app: 0|req: 1/3] 127.0.0.1 () {40 vars in 804 bytes} [Wed Jan 16 15:15:32 2019] GET /pag/?P1/ => generated 4025 bytes in 103 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 0)
+./auto/views.py:9: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'auto.models.HostInfo'> QuerySet.
+  p = Paginator(hostlist, 30)
+[pid: 5043|app: 0|req: 1/4] 127.0.0.1 () {40 vars in 805 bytes} [Wed Jan 16 15:15:32 2019] GET /pag/?P1/ => generated 4025 bytes in 103 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 5042|app: 0|req: 3/5] 127.0.0.1 () {40 vars in 805 bytes} [Wed Jan 16 15:15:33 2019] GET /pag/?P1/ => generated 4025 bytes in 12 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 0)
+./auto/views.py:22: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'auto.models.StatusInfo'> QuerySet.
+  p = Paginator(statulist, 30)
+[pid: 5043|app: 0|req: 2/6] 127.0.0.1 () {40 vars in 898 bytes} [Wed Jan 16 15:15:33 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8061 => generated 2127 bytes in 17 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+./auto/views.py:22: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'auto.models.StatusInfo'> QuerySet.
+  p = Paginator(statulist, 30)
+[pid: 5042|app: 0|req: 4/7] 127.0.0.1 () {40 vars in 898 bytes} [Wed Jan 16 15:15:42 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8087 => generated 2181 bytes in 16 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 5043|app: 0|req: 3/8] 127.0.0.1 () {40 vars in 898 bytes} [Wed Jan 16 15:15:44 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8086 => generated 2199 bytes in 13 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 0)
+./auto/views.py:22: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'auto.models.StatusInfo'> QuerySet.
+  p = Paginator(statulist, 30)
+[pid: 5039|app: 0|req: 2/9] 127.0.0.1 () {40 vars in 898 bytes} [Wed Jan 16 15:15:46 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8085 => generated 2136 bytes in 18 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 5043|app: 0|req: 4/10] 127.0.0.1 () {40 vars in 898 bytes} [Wed Jan 16 15:15:49 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8090 => generated 2154 bytes in 12 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+./auto/views.py:22: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'auto.models.StatusInfo'> QuerySet.
+  p = Paginator(statulist, 30)
+[pid: 5040|app: 0|req: 1/11] 127.0.0.1 () {40 vars in 898 bytes} [Wed Jan 16 15:15:59 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8093 => generated 2082 bytes in 95 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 5039|app: 0|req: 3/12] 127.0.0.1 () {40 vars in 898 bytes} [Wed Jan 16 15:16:01 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8086 => generated 2199 bytes in 12 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 5043|app: 0|req: 5/13] 127.0.0.1 () {40 vars in 898 bytes} [Wed Jan 16 15:16:24 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8061 => generated 2127 bytes in 8 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 5040|app: 0|req: 2/14] 127.0.0.1 () {40 vars in 898 bytes} [Wed Jan 16 15:16:28 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8087 => generated 2181 bytes in 12 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 5043|app: 0|req: 6/15] 127.0.0.1 () {40 vars in 898 bytes} [Wed Jan 16 15:16:31 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8082 => generated 2199 bytes in 12 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 5039|app: 0|req: 4/16] 127.0.0.1 () {40 vars in 898 bytes} [Wed Jan 16 15:16:33 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8083 => generated 2127 bytes in 12 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 5043|app: 0|req: 7/17] 127.0.0.1 () {40 vars in 898 bytes} [Wed Jan 16 15:19:09 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8086 => generated 2199 bytes in 15 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 5043|app: 0|req: 8/18] 127.0.0.1 () {40 vars in 898 bytes} [Wed Jan 16 15:19:18 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8086 => generated 2199 bytes in 16 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 5039|app: 0|req: 5/19] 127.0.0.1 () {40 vars in 898 bytes} [Wed Jan 16 15:19:21 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8090 => generated 2154 bytes in 13 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 5043|app: 0|req: 9/20] 127.0.0.1 () {40 vars in 898 bytes} [Wed Jan 16 15:21:31 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8061 => generated 2335 bytes in 10 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 5042|app: 0|req: 5/21] 127.0.0.1 () {38 vars in 759 bytes} [Wed Jan 16 15:22:13 2019] GET / => generated 0 bytes in 2 msecs (HTTP/1.0 302) 4 headers in 130 bytes (1 switches on core 0)
+[pid: 5043|app: 0|req: 10/22] 127.0.0.1 () {38 vars in 774 bytes} [Wed Jan 16 15:22:13 2019] GET /pag/?P1/ => generated 4025 bytes in 15 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 5039|app: 0|req: 6/23] 127.0.0.1 () {40 vars in 898 bytes} [Wed Jan 16 15:22:16 2019] GET /pag/172.16.255.245/pag/?a=172.16.255.245&b=8061 => generated 2335 bytes in 15 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)
+[pid: 5043|app: 0|req: 11/24] 127.0.0.1 () {38 vars in 759 bytes} [Wed Jan 16 15:22:59 2019] GET / => generated 0 bytes in 1 msecs (HTTP/1.0 302) 4 headers in 130 bytes (1 switches on core 0)
+[pid: 5042|app: 0|req: 6/25] 127.0.0.1 () {38 vars in 774 bytes} [Wed Jan 16 15:22:59 2019] GET /pag/?P1/ => generated 4025 bytes in 14 msecs (HTTP/1.0 200) 3 headers in 110 bytes (1 switches on core 1)

@@ -1,7 +1,8 @@
-from django.urls import re_path
+from django.conf.urls import url
 from . import views
 
 urlpatterns = [
-    re_path(r'^$', views.index),
-    re_path(r'^((([01]{0,1}\d{0,1}\d|2[0-4]\d|25[0-5])\.){3}([01]{0,1}\d{0,1}\d|2[0-4]\d|25[0-5]))/$', views.status),
+    url(r'^$', views.index1),
+    url(r'^pag(?P<pIndex>[0-9]*)/$', views.index),
+    url(r'^pag[0-9]*/(([01]{0,1}\d{0,1}\d|2[0-4]\d|25[0-5])\.){3}([01]{0,1}\d{0,1}\d|2[0-4]\d|25[0-5])/pag(?P<pIndex>[0-9]*)/$', views.status),
 ]
